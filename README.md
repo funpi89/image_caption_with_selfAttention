@@ -10,3 +10,7 @@
 
 ### decoder使用LSTM訓練20個epoch的結果
 ![image](https://github.com/funpi89/image_caption_with_selfAttention/blob/master/noatt.JPG)
+
+### 訓練模型時,由於COCO Dataset資料太多以致GPU運算不夠用,所以取三萬筆資料並且分為兩個檔案進行訓練
+### 先使用`get_img_feature.ipynb以.npy`格式儲存訓練圖檔通過inceptionv3後的特徵向量
+### 再執行`image_caption-SelfAttention.ipynb`進行image caption的訓練
