@@ -2,4 +2,4 @@ matplotlib
 sklearn
 numpy
 pillow
-tensorflow-gpu==2.0.0b1
+tensorflow-gpu==2.12.0
